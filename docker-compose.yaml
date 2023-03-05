@@ -5,7 +5,7 @@ services:
     ports:
       - '80-85:80'
     volumes:
-      - '/mnt/project/docker:/usr/local/apache2/htdocs'
+      - '/mnt/project/docker:/usr/local/apache2/htdocs/'
 
   tomcat_service:
     image: 'tomcat:9'
