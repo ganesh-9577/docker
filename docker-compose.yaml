@@ -3,7 +3,7 @@ services:
   httpd_service:
     image: 'httpd'
     ports:
-      - '80:80'
+      - '80-85:80'
     volumes:
       - '/mnt/project/docker:/usr/local/apache2/htdocs'
 
